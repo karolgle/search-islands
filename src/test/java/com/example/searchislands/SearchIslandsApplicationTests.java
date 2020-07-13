@@ -21,6 +21,7 @@ class SearchIslandsApplicationTests {
     }
 
     @Test
+    //nazwy testów nie opisując dla jakich warunków zachodzi sprawdzenie
     void shouldReturnOne2() {
         byte[][] M = new byte[][]{
                 {1,0,1,0,1,0,1,0,1,0},
