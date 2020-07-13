@@ -36,6 +36,8 @@ Run the following command on cloned repository from IntelliJ:
 
 1. Run `gradlew test`
 
+on linux rather: `sh gradlew test`
+
 ## Contributors
 
 For now only me :).
@@ -43,3 +45,9 @@ For now only me :).
 ## License
 
 A short snippet describing the license (MIT, Apache, etc.)
+
+
+Questions:
+- for me import described in this document was not working on Intelij + Linux env.
+- what is the reason of application.properties file? This is not Spring Boot project
+- there is spring boot and  lombok in dependencies but not used
